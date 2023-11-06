@@ -1,0 +1,20 @@
+#calculadora{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+#visor{
+    border-radius: 10px;
+    background-color: aquamarine;
+    }
+#teclado{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+#borrar{
+    background-color: red;
+}
+#signo{
+    background-color: antiquewhite;
+    font-weight: bold;
+}
